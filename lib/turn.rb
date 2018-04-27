@@ -8,7 +8,6 @@ end
 
 
 def valid_move?(board, index)
-  puts index
   return index.between?(0, 8) && !position_taken?(board, index)
 end
 
